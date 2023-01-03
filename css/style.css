@@ -1,0 +1,50 @@
+h1 {
+    padding: 50px;
+    margin-top: 50px;
+    height: 50vh;
+    text-align: center;
+    border: dashed 10px rgb(32, 33, 36);
+    /* background-color: salmon; */
+    color: rgb(32, 33, 36);
+}
+
+body {
+    background-color: salmon;
+    /* background-color: rgb(32, 33, 36); */
+    margin: 30px;
+}
+
+h1 img {
+    border: dashed 3px rgb(32, 33, 36);
+    box-shadow: 0px 0px 20px rgb(229, 99, 82);
+}
+
+.colorSelector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.colorSelector button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.img {
+    padding: 50px;
+    text-align: center;
+    border: dashed 10px rgb(32, 33, 36);
+    margin-bottom: 50px;
+}
+
+.color1 {
+    background-color: rgb(207, 167, 120);
+}
+.color2 {
+    background-color: rgb(100, 80, 99);
+}
+.color3 {
+    background-color: rgb(27, 66, 66);
+}
